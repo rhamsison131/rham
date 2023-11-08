@@ -1,0 +1,284 @@
+body {
+    background-image: url(wow.jpg);
+    background-size: cover; /* Adjust as needed */
+    background-repeat: no-repeat;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+}
+
+.navbar{s
+    width: 90%;
+    display: flex;
+    margin: auto;
+    padding: 30px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo{
+    width: 160px;
+    cursor: pointer;
+    margin-top: -3%;
+    margin-left: -2%;
+}
+
+ul{
+    margin-top: -4%;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: darkslategray;
+    margin-top: -3%;
+    transition: .4s ease;
+
+}
+
+ul li a:hover{
+    color: rgb(230,104,59);
+}
+
+.info{
+    margin-left: 7%;
+    margin-top: 6%;
+}
+
+.info h1{
+    font-size: 65px;
+    color: rgb(36,32,30);
+}
+
+.info h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: white;
+}
+
+.info span{
+    color: white;
+}
+
+.info a{
+    text-decoration:  none;
+    color: white;
+    background: rgb(36,32,30);
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .4s ease;
+}
+
+.info a:hover{
+    background: rgb(59,174,209);
+}
+
+.image{
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+}
+
+.image img{
+    position: absolute;
+    height: 140%;
+    left: 40%;
+    transform: translate(-55%);
+    bottom: 0;
+    transition: left 2s ease;
+
+}
+
+.icons a{
+    text-decoration: none;
+    color: #000;
+}
+
+.icons ion-icon{
+    margin-left: 7%;
+    color: #000;
+    margin-right: -60px;
+    font-size: 40px;
+    transition: .4s ease;
+    
+}
+
+.icons ion-icon:hover{
+    color: rgb(59,174,209);
+}
+        h1 {
+            color: White;
+        }
+        h3 {
+            color: skyblue;
+font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+        }
+.centered-h2 {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    opacity: 0.7;
+}
+.services h1 {
+text-align: center;
+}
+.services p {
+color: white;
+opacity: 0.9;
+}
+.about h1 { font-size: 25px;
+    color: rgb(36,32,30);
+    text-align: left;
+}
+.about p {
+    font-family: sans-serif;
+    text-align: ;
+    color: white;
+}
+
+.highlight {
+    background-color: transparent   ;
+    color: white; /* You may want to set the text color to black for better visibility on a white background */
+    font-weight: bold;
+}
+.table {
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: white;
+}
+.contact h1 {
+ text-align: center;
+ font-family: Monospace;
+ font-size: 30px;
+    
+}
+.contact h5, p {
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 15px;
+    color: white;
+    column-span: 10;
+
+}
+.info-container {
+    display: flex;
+    align-items: center; /* Vertically center align the content */
+}
+
+.info-content {
+    flex: 1; /* Allow the image to grow to fill available space */
+    padding: 10px; /* Add spacing around the image if needed */
+}
+.info-image {
+            max-width: 50%;
+            height: 50%;
+            position: absolute;
+            top: 10px; /* Adjust the top and right values to position the image */
+            right: 100px;
+            margin-top: 120px;
+            border-radius: 80px;
+}
+
+.info-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: white;
+    margin-top: 350px;
+}
+
+.info-list li {
+    margin-bottom: 10px;
+}
+.hello p {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-right:100px;
+    font-family: monospace;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px; /* Add gap between grid items */
+    margin-right: 300px;
+    color: white;
+    margin-top: 50px;
+}
+
+li {
+    list-style: none;
+    margin: 0; /* Remove default margin for list items */
+}
+.informations {
+    display: inline-table;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, auto);
+     text-align: center;
+    margin-bottom: 10px;
+    margin-right:100px;
+    font-family: monospace;
+    color: white;
+    margin-top: 100px;
+
+}
+
+.infor {
+    margin: 0; /* Remove default margin for paragraphs */
+}
+.achievements-list h1 {
+    text-align: center;
+}
+
+.achievements-list {
+    list-style: none; /* Remove default list-style */
+    padding: 0; /* Remove default padding */
+}
+
+.achievements-list li {
+    margin: 10px 0; /* Add space between list items */
+    text-align: center; /* Center-align text */
+    position: relative; /* Position for child element */
+    color: white;
+    margin-top: 150px;
+}
+
+.passed {
+    text-align: center; /* Center-align text */
+    position: center; /* Position absolutely within the parent <li> */
+    bottom: -10px; /* Adjust the vertical positioning as needed */
+    left: 0; /* Center horizontally within the parent <li> */
+}
+
+
+
